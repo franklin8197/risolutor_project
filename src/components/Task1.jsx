@@ -8,7 +8,8 @@ const Task1 = () => {
     // loop method
 
      useEffect(() => {
-      const uniqueArr =[]
+      let uniqueArr =[]
+      let uniqueArrIndex = 0
 
         for (let i = 0; i < mainArr.length; i++) {
         let isDuplicate = false;
@@ -23,7 +24,8 @@ const Task1 = () => {
 
   // If it's not a duplicate, add it to newArr
      if (!isDuplicate) {
-    uniqueArr.push(mainArr[i]);
+    uniqueArr[uniqueArrIndex] = mainArr[i];
+    uniqueArrIndex++
      }
 
 }
