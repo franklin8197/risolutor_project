@@ -1,0 +1,19 @@
+
+.likeButton{
+    background: #f0f0f0;
+    border: 2px solid #cccccc;
+    width: 180px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #111111;
+}
+
+.likeButton.liked{
+    color: blue;
+}
+
+.likesCounter{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+}
